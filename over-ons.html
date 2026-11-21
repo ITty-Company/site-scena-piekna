@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Over ons — Scena Piękna Waalwijk</title>
+<meta name="description" content="Het verhaal achter Scena Piękna, beautysalon in Waalwijk.">
+<meta name="theme-color" content="#14040A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%23FF3E92' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="preload" as="image" href="assets/img/stage.webp">
+</head>
+<body>
+<div class="curtain" id="curtain" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1"/><g fill="#FF3E92"><circle cx="16" cy="3" r="1.6"/><circle cx="29" cy="16" r="1.6"/><circle cx="16" cy="29" r="1.6"/><circle cx="3" cy="16" r="1.6"/></g></svg></div>
+<a class="skip" href="#main">Naar inhoud</a>
+<header class="nav" id="nav">
+  <a class="nav__logo" href="index.html" aria-label="Scena Piękna, home">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><g fill="var(--accent)"><circle cx="16" cy="3" r="1.8"/><circle cx="29" cy="16" r="1.8"/><circle cx="16" cy="29" r="1.8"/><circle cx="3" cy="16" r="1.8"/></g></svg>
+    <span>Scena Piękna<small>Beautysalon · Waalwijk</small></span>
+  </a>
+  <nav class="nav__links" aria-label="Hoofdmenu"><a href="behandelingen.html">Behandelingen</a><a href="over-ons.html" aria-current="page">Over ons</a><a href="contact.html">Contact</a></nav>
+  <a class="btn btn--white nav__cta" href="tel:+31657119526">Bel voor afspraak</a>
+  <button class="nav__burger" aria-label="Menu openen" aria-expanded="false" aria-controls="mmenu"><span></span><span></span></button>
+</header>
+<div class="mmenu" id="mmenu" hidden><a href="index.html">Home</a><a href="behandelingen.html">Behandelingen</a><a href="over-ons.html">Over ons</a><a href="contact.html">Contact</a><a class="btn btn--accent" href="tel:+31657119526">Bel 06 57 11 95 26</a></div>
+<main id="main">
+<section class="hero hero--page">
+  <img class="hero__img" src="assets/img/stage.webp" alt="" width="1344" height="752" fetchpriority="high" style="object-position:75% 50%">
+  <div class="hero__haze" aria-hidden="true"></div><canvas class="fx" data-fx="dust" aria-hidden="true"></canvas><div class="hero__shade"></div>
+  <div class="hero__in">
+    <span class="chip">Over ons</span>
+    <h1 class="split">Een podium voor jou, niet voor ons.</h1>
+    <p class="hero__lead reveal">Scena Piękna is een beautysalon aan de Van Assendelftstraat in Waalwijk, waar alles draait om tijd en aandacht.</p>
+    
+  </div>
+</section>
+<section class="name">
+  <div class="name__word reveal"><b>Scena</b><span>Pools voor podium, scène — het moment waarop jij centraal staat.</span></div>
+  <div class="name__word reveal"><b>Piękna</b><span>Pools voor mooi — niet als eis, maar als gevoel waarmee je naar buiten loopt.</span></div>
+</section>
+<section class="story2">
+  <div class="story2__in">
+    <h2 class="split">Waarom een podium?</h2>
+    <div class="cols">
+      <p class="reveal">Iedereen kent het: de agenda zit vol, de telefoon trilt, en tijd voor jezelf schuift steeds een weekje op. Bij Scena Piękna draaien we dat om. Zodra je binnenstapt, ben je even backstage — de plek waar niemand iets van je verwacht.</p>
+      <p class="reveal">Een goede behandeling begint daarom niet bij een product, maar bij een gesprek. Wat wil je, wat heb je nodig, hoeveel tijd heb je? We leggen uit wat we doen en waarom, zodat je nooit verrast wordt.</p>
+      <p class="reveal">En dan gaat het licht aan. Een rustige plek, geen haast, aandacht voor de details. Zo voelt een afspraak die echt van jou is.</p>
+    </div>
+  </div>
+</section>
+<section class="values">
+  <article class="glass reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><h3>Tijd</h3><p>Geen lopende band. Elke afspraak krijgt de tijd die nodig is, ook voor je vragen.</p></article>
+  <article class="glass reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><h3>Aandacht</h3><p>We kijken naar jou, niet naar een standaardprogramma. Wat jij wilt, bepaalt de behandeling.</p></article>
+  <article class="glass reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg><h3>Eerlijk advies</h3><p>Liever een eerlijk „dat heb je niet nodig" dan iets verkopen wat niet bij je past.</p></article>
+</section>
+<section class="finale">
+  <img class="finale__img" data-par="0.18" src="assets/img/finale.webp" alt="" width="1920" height="1072" loading="lazy">
+  <canvas class="fx" data-fx="petals" aria-hidden="true"></canvas><div class="finale__shade"></div>
+  <div class="finale__in">
+    <h2 class="split">Kom eens backstage.</h2>
+    <p class="reveal">Bel of app voor een afspraak aan de Van Assendelftstraat 92.</p>
+    <div class="btns reveal"><a class="btn btn--accent" href="tel:+31657119526">Bel 06 57 11 95 26</a><a class="btn btn--ghost" href="https://wa.me/31657119526" target="_blank" rel="noopener">Stuur een WhatsApp</a></div>
+  </div>
+</section></main>
+<footer class="foot">
+  <div><b>Scena Piękna</b><span>Van Assendelftstraat 92, 5141 BX Waalwijk</span><span>Op afspraak — 06 57 11 95 26</span></div>
+  <nav class="foot__nav" aria-label="Footer"><a href="index.html">Home</a><a href="behandelingen.html">Behandelingen</a><a href="over-ons.html">Over ons</a><a href="contact.html">Contact</a></nav>
+  <p>Ontwerpvoorstel door ITty Company. Afbeeldingen zijn voorbeeldbeelden en worden vervangen door eigen foto's van de salon.</p>
+</footer>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
